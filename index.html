@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Switch 2. La movida</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/monokai.css" />
+
+    <style>
+      .reveal .slides {
+        text-align: left;
+      }
+
+      .reveal h1,
+      .reveal h2,
+      .reveal h3 {
+        text-transform: none;
+      }
+
+      .reveal .center {
+        text-align: center;
+      }
+
+      .reveal .two-column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: start;
+      }
+
+      .reveal .small {
+        font-size: 0.7em;
+      }
+
+      .reveal .muted {
+        opacity: 0.65;
+      }
+
+      .reveal .disclaimer {
+          text-align: center;
+      }
+
+      .reveal .disclaimer h1 {
+          font-size: 1.8em;
+          opacity: 0.8;
+      }
+
+      .reveal .disclaimer p {
+          font-size: 0.85em;
+          opacity: 0.75;
+          max-width: 760px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      .reveal .security-slide {
+          text-align: center;
+      }
+
+      .reveal .security-slide h1 {
+          margin-bottom: 0.35em;
+      }
+
+      .reveal .security-model {
+          width: 90%;
+          margin: 0 auto;
+          border: 2px solid #333;
+          display: grid;
+          grid-template-rows: repeat(5, auto);
+          background: #111;
+      }
+
+      .reveal .security-row {
+          min-height: 1.25em;
+          padding: 0.18em 0.35em;
+          border-bottom: 2px solid #333;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          font-size: 0.72em;
+          line-height: 1.1;
+      }
+
+      .reveal .security-row:last-child {
+          border-bottom: 0;
+      }
+
+      .reveal .security-cells {
+          display: grid;
+          grid-template-columns: repeat(6, 1fr);
+          padding: 0;
+      }
+
+      .reveal .security-cells span {
+          padding: 0.18em 0.25em;
+          border-right: 2px solid #333;
+          color: orange;
+          font-weight: 700;
+          text-align: center;
+      }
+
+      .reveal .security-cells span:last-child {
+          border-right: 0;
+      }
+
+      .reveal .trustzone {
+          color: red;
+          font-weight: 700;
+          margin-right: 0.25em;
+      }
+
+      .reveal .kernel {
+          color: orangered;
+          font-weight: 700;
+          margin-right: 0.25em;
+      }
+
+      .reveal .microservices {
+          color: yellow;
+          font-weight: 700;
+          margin-right: 0.25em;
+      }
+
+      .reveal .game {
+          color: lime;
+          font-weight: 700;
+          margin-right: 0.25em;
+      }
+
+      .reveal .detail {
+          color: #bbb;
+          font-size: 0.72em;
+      }
+
+      .reveal .security-model.reverse-reveal {
+          width: 90%;
+          margin: 0 auto;
+          border: 2px solid #333;
+          display: flex;
+          flex-direction: column-reverse;
+          background: #111;
+      }
+
+      .security-row-kernel {
+          background: #640000;
+      }
+
+      .security-row-services,
+      .security-row-microservices,
+      .security-row-game {
+          background: #005000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-markdown="slides.md"
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+          data-separator-notes="^Note:"
+          data-charset="utf-8">
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
+
+    <script>
+      Reveal.initialize({
+        hash: true,
+        slideNumber: true,
+        controls: true,
+        progress: true,
+        center: true,
+        transition: "slide",
+
+        plugins: [RevealMarkdown, RevealNotes, RevealHighlight],
+      });
+    </script>
+  </body>
+</html>
