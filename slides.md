@@ -363,7 +363,7 @@ quedaos con esta idea de dumpear código.
 </div>
 
 Note:
-Focus ahora en SM, es el portero que dicta si te puedes comunicar o no con procesos.
+Focus ahora en SM (service manager), es el portero que dicta si te puedes comunicar o no con procesos.
 
 ---
 
@@ -437,11 +437,9 @@ Note:
 Puedes comunicarte con los procesos, pero "a ciegas".
 Hay que encontrar una manera de dumpear código.
 
-No me queda muy claro, pero sacaron como se lanzaba un proceso y la función que se encargaba de montar el los archivos del sistema
+No me queda muy claro, pero sacaron como se lanzaba un proceso y la función que se encargaba de montar los archivos del sistema
 
 ---
-
-
 
 ### fsp-ldr
 
@@ -760,6 +758,12 @@ Las direcciones de retorno del stack están firmadas.
 
 Note:
 En la SW1, funcionaba a nivel de software
+
+---
+
+## Control-Flow-Integrity (CFI)
+
+Adiós a los ROPs y a sobreescribir punteros a funciones, entre otros.
 
 ---
 

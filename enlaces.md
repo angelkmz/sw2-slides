@@ -1,0 +1,14 @@
+- https://bsky.app/profile/retr0.id/post/3lquqdmcomc2e
+- https://switchbrew.org/w/index.php?mobileaction=toggle_view_desktop&title=Security_Mitigations
+- https://switchbrew.org/wiki/Switch_System_Flaws
+- https://arxiv.org/pdf/1905.07643
+- https://blog.ihaveahax.net/2025/06/03/more-details-on-why-the-nintendo-switch-2-may-not-be-hacked/
+- https://reversing.live/sslbypass.html
+- https://www.reddit.com/r/switch2hacks/comments/1qfr2hn/things_that_have_happened_publicly_in_the_world/
+- https://docs.nvidia.com/jetson/archives/r35.1/DeveloperGuide/text/AR/BootArchitecture/JetsonAgxOrinBootFlow.html
+- https://www.reddit.com/r/SwitchHacks/comments/7rq0cu/jamais_vu_a_100_trustzone_code_execution_exploit/?solution=be1377a8cd0f87e0be1377a8cd0f87e0&js_challenge=1&token=bbbe4bf1c9a2b5160829c4be34da5861eed63f5a78dcf65d1185d82ad11ca18c&jsc_orig_r=&st=jv9uqc5o&sh=51a2a08a
+- https://web.archive.org/web/20251007000119/https://daeken.dev/nintendo-switch-nvservices-info-leak
+- https://media.ccc.de/v/34c3-8941-console_security_-_switch
+- https://media.ccc.de/v/c4.openchaos.2018.06.glitching-the-switch
+- https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html
+
